@@ -1,0 +1,45 @@
+plugins {
+    id 'org.springframework.boot' version '2.4.5'
+    id 'io.spring.dependency-management' version '1.0.11.RELEASE'
+    id 'java'
+}
+group = 'com.example'
+version = '0.0.1-SNAPSHOT'
+sourceCompatibility = '11'
+
+configurations {
+    compileOnly {
+        extendsFrom annotationProcessor
+    }
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+//jdbc
+    implementation 'org.springframework.boot:spring-boot-starter-jdbc'
+// spring data jpa
+    implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
+// spring security
+    implementation 'org.springframework.boot:spring-boot-starter-security'
+// spring web
+    implementation 'org.springframework.boot:spring-boot-starter-web'
+    runtimeOnly 'org.postgresql:postgresql'
+    testImplementation 'org.springframework.boot:spring-boot-starter-test'
+    testImplementation 'org.springframework.security:spring-security-test'
+//jsp
+    compile 'org.apache.tomcat.embed:tomcat-embed-jasper'
+//dev tool for live reload and other dev
+    developmentOnly 'org.springframework.boot:spring-boot-devtools'
+    compile 'javax.servlet:jstl'
+//for email verification
+    implementation 'org.springframework.boot:spring-boot-starter-mail'
+
+
+}
+
+test {
+    useJUnitPlatform()
+}
