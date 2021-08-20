@@ -1,6 +1,7 @@
 # KenaKata
 <b>An Online Shopping Mall Platform Made With Java Springboot</b> <br><br>
 Visit: https://kenakata-unlimited.herokuapp.com/ <br><br>
+Project Demo: https://youtu.be/20P4_kiQ8Vw <br><br>
 
 <h2> Dependencies: </h2>
 <li> Java Springboot </li>
