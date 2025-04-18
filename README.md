@@ -1,5 +1,6 @@
 # KenaKata
-<b>An Online Shopping Mall Platform Made With Java Springboot</b> <br><br>
+Project KenaKata is an e-commerce based project to provide both the online business owners and the customers with a full virtual shopping mall like experience. Our project aims to act as a bridge between the buyers and the sellers by providing a common platform in 2020 pandemic situation.
+
 Visit (run from PC): https://kenakata-unlimited.herokuapp.com/ <br><br>
 Project Demo: https://youtu.be/20P4_kiQ8Vw <br><br>
 
